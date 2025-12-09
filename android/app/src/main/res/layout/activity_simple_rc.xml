@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- 标题 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RC 遥控器数据"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- 摇杆数据 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="摇杆数据"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:background="#F5F5F5"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_left_x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="左摇杆X: 0.0"
+            android:textSize="14sp"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/tv_left_y"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="左摇杆Y: 0.0"
+            android:textSize="14sp"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/tv_right_x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="右摇杆X: 0.0"
+            android:textSize="14sp"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/tv_right_y"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="右摇杆Y: 0.0"
+            android:textSize="14sp"
+            android:padding="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- 拨杆数据 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="拨杆数据"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:background="#F5F5F5"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_left_trigger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="左拨杆值: 0"
+            android:textSize="14sp"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/tv_right_trigger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="右拨杆值: 0"
+            android:textSize="14sp"
+            android:padding="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- 滚轮数据 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="滚轮数据"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:background="#F5F5F5"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_audio_volume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="左滚轮值: 0"
+            android:textSize="14sp"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/tv_scale_trigger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="右滚轮值: 0"
+            android:textSize="14sp"
+            android:padding="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- 按钮数据 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="按钮数据"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:background="#F5F5F5"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_left_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="左按键: 0 次"
+            android:textSize="14sp"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/tv_right_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="右按键: 0 次"
+            android:textSize="14sp"
+            android:padding="4dp" />
+
+    </LinearLayout>
+
+</ScrollView>
+
